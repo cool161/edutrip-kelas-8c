@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahasa Inggris - Edutrip</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Reset default margin & padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background Gradient Biru-Hijau-Kuning */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #00C6FF, #0072FF, #FFB400);
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 80px; /* Supaya konten tidak tertutup navbar */
+        }
+
+        /* Navbar Transparan Glassmorphism */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Navigasi Modern */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 10px 15px;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Efek underline saat hover */
+        nav a::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: #FFB400; /* Kuning neon */
+            bottom: -5px;
+            left: 0;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        nav a:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+        /* Judul dengan animasi */
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Tabel Glassmorphism */
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            width: 60%;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 255, 255, 0.3);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        th {
+            padding: 20px;
+            font-size: 20px;
+            color: white;
+        }
+
+        /* Efek Hover pada Gambar */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 255, 255, 0.5);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 255, 255, 0.7);
+        }
+
+        /* Animasi Fade In */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="agama.html">Agama</a>
+            <a href="bahasaindonesia.html">Bahasa Indonesia</a>
+            <a href="ppkn.html">PPKn</a>
+            <a href="bahasainggris.html">Bahasa Inggris</a>
+            <a href="bahasamandarin.html">Mandarin</a>
+            <a href="ips.html">IPS</a>
+        </nav>
+    </header>
+
+    <h1>Pelajaran Bahasa Inggris</h1>
+
+    <table border="0">
+        <tr>
+            <th>The Fun Educational Journey at Yogyakarta and Solo 
+                Hi there, today i'll tell my edutrip adventure, let’s start, at eight of march twenty-twenty five there was 85 people from santa laurensia that is about to go to yogyakarta and solo at 5:00 in the afternoon we went to desa penting sari and when we got there we were introduced to the head of the village, after that we continue and met our “orang tua asuh” and rest at their house, the next day we went to church at santa maria after that we went back to the village to have fun, nine of march twenty-twenty five we continue our journey doing activities at the “desa” like making tempe and other, at tenth of march twenty-twenty five we continue by going on a jeep ride to merapi and learn a little bit about merapi after that we went back and rest, the last day at the Desa which is eleventh of march twenty-twenty five, we all packed up and went to go to grand mercure to rest, after that twelve of march twenty-twenty five we just visit some museum and candi prambanan. 
+                
+                
+             Alright yogyakarta story complete now for solo, at thirteen of march we all packed up and went to take a three hour journey to solo, when we arrived there we immediately went to Institusi Seni Indonesia, we learned on how to get good looking photos and learned on how to play some tradisional instruments, after that we went to eat lunch and went to novotel and rested there, the next day we packed up and went to museum sangiran, after that we went to the airport to go home.
+                
+                Looks like both story are done  time for return, at fourteen of march twenty-twenty five after going from museum sangiran we went to the airport, when we got there we lined up our luggages and we sat down on the floor while waiting for direction from the teachers, before we go through security we got our boarding pass and when we did we went through security and waited for our time to board, when it was time to board we all waited patiently and boarded, when we were at the plane we mostly just sleep and when we arrived we all got our luggages and went to our homes to rest. 
+                
+                Alright all the stories are done time for the conclusion, this edutrip journey took up time and a ton of energy just like when we are studying for a test, but it was worth it because we all had fun and the views we got there were very beautiful and thank you for reading! 
+                
+                </th>
+    </table>
+
+</body>
+</html>
